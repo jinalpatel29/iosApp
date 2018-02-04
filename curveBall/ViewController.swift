@@ -10,9 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var statusLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.statusLabel.text = "Switch is On"
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +21,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    @IBAction func switchOnOff(_ sender: UISwitch) {
+        if sender.isOn {
+            self.statusLabel.text = "Switch is On"
+        }else{
+            self.statusLabel.text = "Switch is Off"
+        }
+    }
 
 }
 

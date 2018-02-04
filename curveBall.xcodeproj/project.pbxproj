@@ -15,6 +15,10 @@
 		E11A6D3D20192F910023C6BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11A6D3B20192F910023C6BD /* LaunchScreen.storyboard */; };
 		E11A6D4820192F920023C6BD /* curveBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11A6D4720192F920023C6BD /* curveBallTests.swift */; };
 		E11A6D5320192F920023C6BD /* curveBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11A6D5220192F920023C6BD /* curveBallUITests.swift */; };
+		E11A6D61201939F00023C6BD /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11A6D60201939F00023C6BD /* DatePickerViewController.swift */; };
+		E11A6D6320193A310023C6BD /* RefinedSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11A6D6220193A310023C6BD /* RefinedSearchViewController.swift */; };
+		E11A6D6520193A710023C6BD /* CustomSwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11A6D6420193A710023C6BD /* CustomSwipeTableViewController.swift */; };
+		E11A6D6720193A900023C6BD /* SectionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11A6D6620193A900023C6BD /* SectionsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		E11A6D4E20192F920023C6BD /* curveBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = curveBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11A6D5220192F920023C6BD /* curveBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curveBallUITests.swift; sourceTree = "<group>"; };
 		E11A6D5420192F920023C6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11A6D60201939F00023C6BD /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		E11A6D6220193A310023C6BD /* RefinedSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefinedSearchViewController.swift; sourceTree = "<group>"; };
+		E11A6D6420193A710023C6BD /* CustomSwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwipeTableViewController.swift; sourceTree = "<group>"; };
+		E11A6D6620193A900023C6BD /* SectionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 			children = (
 				E11A6D2F20192F910023C6BD /* AppDelegate.swift */,
 				E11A6D3120192F910023C6BD /* ViewController.swift */,
+				E11A6D60201939F00023C6BD /* DatePickerViewController.swift */,
+				E11A6D6220193A310023C6BD /* RefinedSearchViewController.swift */,
+				E11A6D6420193A710023C6BD /* CustomSwipeTableViewController.swift */,
+				E11A6D6620193A900023C6BD /* SectionsTableViewController.swift */,
 				E11A6D3320192F910023C6BD /* Main.storyboard */,
 				E11A6D3920192F910023C6BD /* Assets.xcassets */,
 				E11A6D3B20192F910023C6BD /* LaunchScreen.storyboard */,
@@ -262,7 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11A6D61201939F00023C6BD /* DatePickerViewController.swift in Sources */,
 				E11A6D3220192F910023C6BD /* ViewController.swift in Sources */,
+				E11A6D6720193A900023C6BD /* SectionsTableViewController.swift in Sources */,
+				E11A6D6320193A310023C6BD /* RefinedSearchViewController.swift in Sources */,
+				E11A6D6520193A710023C6BD /* CustomSwipeTableViewController.swift in Sources */,
 				E11A6D3820192F910023C6BD /* curveBall.xcdatamodeld in Sources */,
 				E11A6D3020192F910023C6BD /* AppDelegate.swift in Sources */,
 			);
